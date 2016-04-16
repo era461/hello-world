@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3 align="center">회원가입</h3>
+	<form>
+		<table align="center" border="0" cellspacing="0">
+			<tr>
+				<td width="120">
+					<lable>아이디</lable>
+				</td>
+				<td width="400">
+					<input type="text" readonly="readonly" size="20"/><input type="button" value="중복확인">
+ 				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>비밀번호</lable>
+				</td>
+				<td>
+					<input type="password" size="20"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>비밀번호 확인</lable>
+				</td>
+				<td>
+					<input type="password" size="20"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>이름</lable>
+				</td>
+				<td>
+					<input type="text" size="20"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>우편번호</lable>
+				</td>
+				<td>
+					<input type="text" size="10" readonly="readonly"/><lable>-</lable><input type="text" size="10" readonly="readonly"/><input type="button" value="우편번호찾기"/> 
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>주소</lable>
+				</td>
+				<td>
+					<input type="text" readonly="readonly" size="55">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>상세주소</lable>
+				</td>
+				<td>
+					<input type="text"  size="55">
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>휴대폰</lable>
+				</td>
+				<td>
+					<select>
+						<option>010</option>
+						<option>011</option>
+						<option>016</option>
+						<option>019</option>
+					</select>
+					<lable>-</lable>
+					<input type="text" size="10"/>
+					<label>-</label>
+					<input type="text" size="10"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>유선전화</lable>
+				</td>
+				<td>
+					<input type="text" size="10"/>
+					<label>-</label>
+					<input type="text" size="10"/>
+					<label>-</label>
+					<input type="text" size="10"/>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<lable>이메일</lable>
+				</td>
+				<td>
+					<input type="text" size="10"/>
+					<label>@</label>
+					<select>
+						<option>naver.com</option>
+						<option>daum.net</option>
+						<option>gmail.com</option>
+						<option>nate.com</option>
+						<option>hotmail.com</option>
+						<option>직접입력</option>
+					</select>
+					<input type="text" size="15"/>
+				</td>
+			</tr>
+			<tr>
+				<td>주민번호</td>
+				<td>
+					<input type="text"/>
+					<lable>-</lable>
+					<input type="password"/>
+				</td>
+			</tr>
+			<tr>
+				<td>성별</td>
+				<td>
+					<input type="radio" value="m" name="gender" checked="checked"/>남
+					<input type="radio" value="f" name="gender"/>여
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">관심언어</td>
+				<td >
+					<input type="checkbox"/>자바 &nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"/>C/C++ &nbsp; <input type="checkbox"/>VB<br/>
+					<input type="checkbox"/>servlet &nbsp; <input type="checkbox"/>jsp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"/>php<br/>
+					<input type="checkbox"/>asp &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="checkbox"/>python <input type="checkbox"/>etc
+				</td>
+			</tr>
+			<tr>
+				<td valign="top">가입인사</td>
+				<td><textarea cols="50" rows="5" ></textarea></td>
+			</tr>
+			<tr>
+				<input type="hidden" value="신림 성우네스트"/>
+			</tr>
+			<tr align="center">
+				<td colspan="2">
+					<input type="submit" value="가입"/>
+					<input type="reset" value="초기화"/>
+				</td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
